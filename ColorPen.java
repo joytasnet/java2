@@ -30,6 +30,7 @@ public class ColorPen{
 			str += "=";
 		}
 		str += ">";
+		str += "(" + this.color +")";
 		System.out.println(str);
 	}
 }
